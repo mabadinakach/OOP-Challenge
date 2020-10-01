@@ -29,7 +29,8 @@ class Basket:
         self.speed += score
         while elapsed <= seconds:
             elapsed = time.time() - start
-            print(f"{int(seconds)-int(elapsed)} seconds remaining")
+            if seconds > 0:
+                print(f"{int(seconds)-int(elapsed)} seconds remaining")
             time.sleep(1)
         self.speed -= score
         

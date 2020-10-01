@@ -61,7 +61,7 @@ def start_game(timer):
     
     basket.update_highsore()
 
-    print(f"Game Over | Score: {basket.get_score()} | Highscore: {basket.get_highscore()}")
+    print(f"Game Over\nScore: {basket.get_score()} | Highscore: {basket.get_highscore()}")
 
 
 start_game(30)
