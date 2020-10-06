@@ -5,6 +5,9 @@ class Fruit:
         self._img = img
         self._falling_speed = falling_speed
 
+    def announce(self):
+        return self._name
+
     def get_score(self):
         return self._score
     

@@ -55,8 +55,7 @@ def start_game(timer):
             print(message)
             basket.catch_fruit(poison_score)
             basket.set_speed(slowed)
-
-        print(f"Catched: {fruit.get_name()}")    
+        print(f"Catched: {fruit.announce()}") 
         time.sleep(1)
     
     basket.update_highsore()

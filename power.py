@@ -7,7 +7,7 @@ class Power(Fruit):
         self._time = time
 
     def announce(self):
-        return f"{self._ability}"
+        return f"POWER: {self._ability}"
     
     def get_ability(self):
         return f'Using {self._ability}'
