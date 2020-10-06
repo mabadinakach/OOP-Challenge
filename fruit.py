@@ -1,4 +1,6 @@
 class Fruit:
+    '''Class used to instatiate fruits and bad fruits into the game'''
+
     def __init__(self, name, score, img, falling_speed):
         self._name = name
         self._score = score

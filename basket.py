@@ -1,6 +1,8 @@
 import time
 
 class Basket:
+    '''Class used to instantiate all the values of the player'''
+    
     def __init__(self, name ,color, x, score, speed, highscore = 0):
         self.name = name
         self._color = color

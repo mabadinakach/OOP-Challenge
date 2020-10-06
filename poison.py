@@ -1,4 +1,6 @@
 class Poison:
+    '''Class used add posion effects to the player by using staticmethods'''
+
     @staticmethod
     def send_poison():
         message = "You have been poisoned -4 points"

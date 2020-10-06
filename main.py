@@ -8,6 +8,8 @@ from poison import Poison
 
 basket = Basket("marcos","green",0,0,3)
 
+
+# Decorator to use in power-ups
 def add_style(func):
     def wrapper():
         str = func()
