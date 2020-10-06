@@ -36,7 +36,7 @@ def start_game(timer):
     elapsed = 0
     power_random = random.randint(0,seconds)
 
-
+    print("Get Ready!")
     print(f"You have {seconds} seconds to catch as many fruits as you can!")
     while elapsed <= seconds:
         print(f"Total score: {basket.get_score()}")
